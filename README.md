@@ -1,51 +1,51 @@
-# Guardian Eye 👁️
+﻿# Guardian Eye 👁️
 
 **Privacy-first video surveillance software for Windows & Linux**
 
-🏠 **Perfect for:** Homeowners • Parents • Small Business • Privacy Enthusiasts
-
-[![Website](https://img.shields.io/badge/Website-getguardianeye.com-blue)](https://getguardianeye.com)
-[![Download](https://img.shields.io/badge/Download-Free-green)](https://getguardianeye.com/download)
-[![Documentation](https://img.shields.io/badge/Docs-Read-orange)](https://getguardianeye.com/blog)
+[![Website](https://img.shields.io/badge/Website-getguardianeye.com-blue?style=flat-square)](https://getguardianeye.com)
+[![Download](https://img.shields.io/badge/Download-Free-brightgreen?style=flat-square)](https://getguardianeye.com/download)
+[![X / Twitter](https://img.shields.io/badge/X-GuardianEyeApp-black?style=flat-square&logo=x)](https://x.com/GuardianEyeApp)
+[![Telegram](https://img.shields.io/badge/Telegram-Guardian__Eye-2CA5E0?style=flat-square&logo=telegram)](https://t.me/Guardian_Eye)
 
 ---
 
 ## 🚀 Products
 
-### 🖥️ Guardian Eye Desktop
-Main surveillance application for Windows 10/11 and Linux
+### 🖥️ [Guardian Eye Desktop](https://github.com/GuardianEye-Official/Guardian.Eye)
+Desktop surveillance application for Windows 10/11 and Linux.
+Releases, changelogs, and issue tracker are public.
 
-**Coming soon:** Public repository with community examples
-
-### 🌐 [Guardian Eye Web](https://github.com/guardian-eye/Guardian.Eye.Web)
-Official website source code - Astro + TypeScript + Tailwind CSS
+### 🌐 Guardian Eye Web
+Official website — [getguardianeye.com](https://getguardianeye.com)
+Built with Astro, TypeScript, Tailwind CSS. SEO-optimized, multilingual (EN/RU/DE/FR).
 
 ---
 
 ## ✨ Why Guardian Eye?
 
 ### 🔒 100% Privacy
-- **No cloud** - Everything stays on YOUR computer
-- **No accounts** - No registration required
-- **No tracking** - Zero telemetry or data collection
-- **Local only** - Your footage never leaves your network
+- **No cloud** — Everything stays on YOUR computer
+- **No accounts** — No registration required
+- **No tracking** — Zero telemetry or data collection
+- **Local only** — Your footage never leaves your network
 
 ### 🤖 Smart Features
-- **AI Motion Detection** - Intelligent alerts, reduce false positives
-- **Multi-Camera Support** - ONVIF, RTSP, USB webcams
-- **Event Recording** - Save only what matters
-- **Remote Access** - Secure local network access
+- **AI Object Detection** — YOLO-based, filters false positives intelligently
+- **Audio Analytics** — Detect dog barking, car alarms, glass break, and more
+- **Multi-Camera** — ONVIF, RTSP, USB webcams
+- **Smart Recording** — Event-triggered, pre-record buffer, segment rotation
+- **Notifications** — Telegram, email, Home Assistant
 
 ### 💻 Cross-Platform
 - Windows 10/11 (x64)
-- Linux (Ubuntu 20.04+, Fedora 35+, Debian 11+)
-- ARM support planned (Raspberry Pi)
+- Linux — Ubuntu 20.04+, Debian 11+, Fedora 35+ (APT repository available)
+- ARM planned (Raspberry Pi)
 
 ### 💰 Free Forever
-- **Free version** - 2 cameras, all core features
-- **Home ($29)** - 4 cameras, one-time payment
-- **Pro ($79)** - Unlimited cameras, one-time payment
-- **No subscriptions** - Pay once, use forever
+- **Free** — 2 cameras, all core features, $0
+- **Home ($29)** — 4 cameras, one-time payment
+- **Pro ($79)** — Unlimited cameras, one-time payment
+- **No subscriptions** — Pay once, use forever
 
 ---
 
@@ -53,24 +53,31 @@ Official website source code - Astro + TypeScript + Tailwind CSS
 
 | Repository | Description | Status |
 |------------|-------------|--------|
-| [.github](https://github.com/guardian-eye/.github) | Organization profile | ✅ Active |
-| Guardian.Eye | Desktop application | 🔜 Coming soon |
-| [Guardian.Eye.Web](https://github.com/guardian-eye/Guardian.Eye.Web) | Website source | 🔜 Planned |
-| Examples | Integration examples | 🔜 Planned |
-| Plugins | Community plugins | 🔜 Planned |
+| [Guardian.Eye](https://github.com/GuardianEye-Official/Guardian.Eye) | Desktop application | ✅ Active |
+| [.github](https://github.com/GuardianEye-Official/.github) | Organization profile | ✅ Active |
 
 ---
 
 ## 🌍 Internationalization
 
-Full support for multiple languages:
+- 🇺🇸 **English** — Complete
+- 🇷🇺 **Русский** — Complete
+- 🇩🇪 **Deutsch** — Complete
+- 🇫🇷 **Français** — Complete
 
-- 🇺🇸 **English** - Complete
-- 🇷🇺 **Русский** - Complete  
-- 🇩🇪 **Deutsch** - Complete
-- 🇫🇷 **Français** - Complete
+---
 
-Website, documentation, and UI available in all languages.
+## 🆚 Alternatives Comparison
+
+| Feature | Guardian Eye | Ring | Nest | Blue Iris | ZoneMinder |
+|---------|:-----------:|:----:|:----:|:---------:|:----------:|
+| **Price** | $0–79 one-time | $10/mo | $6/mo | $70 one-time | Free |
+| **Cloud Required** | ❌ No | ✅ Yes | ✅ Yes | ❌ No | ❌ No |
+| **Subscription** | ❌ No | ✅ Yes | ✅ Yes | ❌ No | ❌ No |
+| **AI Detection** | ✅ Yes | ✅ Yes | ✅ Yes | ⚠️ Limited | ⚠️ Limited |
+| **Audio Analytics** | ✅ Yes | ⚠️ Limited | ⚠️ Limited | ❌ No | ❌ No |
+| **Privacy** | ✅ 100% Local | ❌ Cloud | ❌ Cloud | ✅ Local | ✅ Local |
+| **Linux** | ✅ Yes | ❌ No | ❌ No | ❌ No | ✅ Yes |
 
 ---
 
@@ -78,58 +85,16 @@ Website, documentation, and UI available in all languages.
 
 - 🌐 **Website:** https://getguardianeye.com
 - 📥 **Download:** https://getguardianeye.com/download
-- 📖 **Documentation:** https://getguardianeye.com/blog
-- 📧 **Contact:** https://getguardianeye.com/contact
-- 💬 **Support:** GitHub Discussions (coming soon)
-
----
-
-## 🆚 Alternatives Comparison
-
-Guardian Eye vs popular alternatives:
-
-| Feature | Guardian Eye | Ring | Nest | Blue Iris | ZoneMinder |
-|---------|-------------|------|------|-----------|------------|
-| **Price** | $0-79 one-time | $10/mo | $6/mo | $70 one-time | Free |
-| **Cloud Required** | ❌ No | ✅ Yes | ✅ Yes | ❌ No | ❌ No |
-| **Subscription** | ❌ No | ✅ Yes | ✅ Yes | ❌ No | ❌ No |
-| **AI Detection** | ✅ Yes | ✅ Yes | ✅ Yes | ⚠️ Limited | ⚠️ Limited |
-| **Privacy** | ✅ 100% | ❌ Cloud | ❌ Cloud | ✅ Local | ✅ Local |
-| **Ease of Use** | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐ |
-| **Cross-Platform** | ✅ Win/Linux | ❌ App only | ❌ App only | ❌ Windows | ✅ Linux |
-
-**Learn more:** https://getguardianeye.com/alternatives
-
----
-
-## 🤝 Contributing
-
-We welcome contributions from the community!
-
-### How to contribute:
-- 🐛 **Report bugs** - Open an issue
-- 💡 **Suggest features** - Start a discussion
-- 📝 **Improve docs** - Submit a PR
-- 🌐 **Translations** - Help localize
-- 🔌 **Build plugins** - Extend functionality
-
-**Note:** Main application source code is proprietary, but we maintain open-source examples, tools, and documentation.
+- 📖 **Documentation:** https://getguardianeye.com/docs
+- 💬 **Telegram:** https://t.me/Guardian_Eye
+- 📧 **Contact:** info@getguardianeye.com
 
 ---
 
 ## 📄 License
 
-- **Guardian Eye Desktop** - Proprietary Freeware (Free version) / Commercial (paid tiers)
-- **Website & Docs** - MIT License (open-source)
-- **Examples & Tools** - MIT License (open-source)
-
----
-
-## 📧 Contact
-
-- **Email:** homeprimus@gmail.com
-- **Website:** https://getguardianeye.com/contact
-- **Issues:** Open a GitHub issue in relevant repository
+- **Guardian Eye Desktop** — Proprietary Freeware (Free) / Commercial (paid tiers)
+- **Website & Docs** — MIT License
 
 ---
 
@@ -137,9 +102,8 @@ We welcome contributions from the community!
 
 **Make privacy-focused video surveillance accessible to everyone.**
 
-No cloud subscriptions. No vendor lock-in. Just simple, powerful, local surveillance that respects your privacy.
+No cloud. No subscriptions. No vendor lock-in. Just powerful local surveillance that respects your privacy.
 
 ---
 
-⭐ **Star us on GitHub** if you believe in privacy-first surveillance!
-
+⭐ **Star us** if you believe privacy matters!
