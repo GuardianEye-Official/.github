@@ -1,6 +1,6 @@
 ﻿# Guardian Eye 👁️
 
-**Privacy-first video surveillance for Windows & Linux**
+**Privacy-first video surveillance for Windows, Linux & macOS**
 
 > No cloud. No subscriptions. No tracking. Your footage stays on your machine.
 
@@ -29,8 +29,8 @@ It runs entirely on your hardware — no cloud accounts, no telemetry, no vendor
 | 🔊 **Audio Analytics** | Detect sounds — dog barking, car alarms, glass break, and more |
 | 💾 **Smart Recording** | Event-triggered, pre-record buffer, size/time segment rotation |
 | 🔔 **Notifications** | Telegram, email (HTML), Home Assistant webhooks |
-| 🖥️ **Hardware Accel** | VAAPI (Linux), Intel/NVIDIA GPU detection (Windows) |
-| 🌍 **Multilingual** | English, Русский, Deutsch, Français — full UI localization |
+| 🖥️ **Hardware Accel** | VAAPI (Linux), Metal (macOS), Intel/NVIDIA GPU (Windows) |
+| 🌍 **Multilingual** | English, Русский, Deutsch, Français, 中文, Español, Português, 日本語 — full UI localization |
 | 🔒 **100% Local** | Zero cloud, zero accounts, zero telemetry |
 
 ---
@@ -51,6 +51,7 @@ No subscriptions. No renewals. Pay once, use forever.
 
 - **Windows** 10/11 x64
 - **Linux** — Ubuntu 20.04+, Debian 11+, Fedora 35+ (APT repository available)
+- **macOS** — 12 Monterey+ (Apple Silicon & Intel)
 - **ARM** — planned (Raspberry Pi)
 
 ---
@@ -74,6 +75,7 @@ No subscriptions. No renewals. Pay once, use forever.
 | **AI detection** | ✅ | ✅ | ✅ | ⚠️ | ⚠️ |
 | **Audio analytics** | ✅ | ⚠️ | ⚠️ | ❌ | ❌ |
 | **100% local** | ✅ | ❌ | ❌ | ✅ | ✅ |
+| **macOS support** | ✅ | ❌ | ❌ | ❌ | ⚠️ |
 | **Linux support** | ✅ | ❌ | ❌ | ❌ | ✅ |
 
 ---

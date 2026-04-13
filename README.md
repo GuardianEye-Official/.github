@@ -1,6 +1,6 @@
 ﻿# Guardian Eye 👁️
 
-**Privacy-first video surveillance software for Windows & Linux**
+**Privacy-first video surveillance software for Windows, Linux & macOS**
 
 [![Website](https://img.shields.io/badge/Website-getguardianeye.com-blue?style=flat-square)](https://getguardianeye.com)
 [![Download](https://img.shields.io/badge/Download-Free-brightgreen?style=flat-square)](https://getguardianeye.com/download)
@@ -12,7 +12,7 @@
 ## 🚀 Products
 
 ### 🖥️ [Guardian Eye Desktop](https://github.com/GuardianEye-Official/Guardian.Eye)
-Desktop surveillance application for Windows 10/11 and Linux.
+Desktop surveillance application for Windows 10/11, Linux, and macOS.
 Releases, changelogs, and issue tracker are public.
 
 ### 🌐 Guardian Eye Web
@@ -38,6 +38,7 @@ Built with Astro, TypeScript, Tailwind CSS. SEO-optimized, multilingual (EN/RU/D
 
 ### 💻 Cross-Platform
 - Windows 10/11 (x64)
+- macOS 12 Monterey+ (Apple Silicon & Intel)
 - Linux — Ubuntu 20.04+, Debian 11+, Fedora 35+ (APT repository available)
 - ARM planned (Raspberry Pi)
 
@@ -64,6 +65,10 @@ Built with Astro, TypeScript, Tailwind CSS. SEO-optimized, multilingual (EN/RU/D
 - 🇷🇺 **Русский** — Complete
 - 🇩🇪 **Deutsch** — Complete
 - 🇫🇷 **Français** — Complete
+- 🇨🇳 **中文** — Complete
+- 🇪🇸 **Español** — Complete
+- 🇧🇷 **Português** — Complete
+- 🇯🇵 **日本語** — Complete
 
 ---
 
@@ -77,6 +82,7 @@ Built with Astro, TypeScript, Tailwind CSS. SEO-optimized, multilingual (EN/RU/D
 | **AI Detection** | ✅ Yes | ✅ Yes | ✅ Yes | ⚠️ Limited | ⚠️ Limited |
 | **Audio Analytics** | ✅ Yes | ⚠️ Limited | ⚠️ Limited | ❌ No | ❌ No |
 | **Privacy** | ✅ 100% Local | ❌ Cloud | ❌ Cloud | ✅ Local | ✅ Local |
+| **macOS** | ✅ Yes | ❌ No | ❌ No | ❌ No | ❌ No |
 | **Linux** | ✅ Yes | ❌ No | ❌ No | ❌ No | ✅ Yes |
 
 ---
