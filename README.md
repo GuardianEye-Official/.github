@@ -25,25 +25,29 @@ Built with Astro, TypeScript, Tailwind CSS. SEO-optimized, multilingual (EN/RU/D
 
 ### 🔒 100% Privacy
 - **No cloud** — Everything stays on YOUR computer
-- **No accounts** — No registration required
+- **No accounts** — No registration required, just download and run
 - **No tracking** — Zero telemetry or data collection
 - **Local only** — Your footage never leaves your network
+- **Works offline** — Fully functional without internet after installation
 
 ### 🤖 Smart Features
-- **AI Object Detection** — YOLO-based, filters false positives intelligently
+- **AI Object Detection** — YOLOv8 (Nano/Small/Medium), CUDA/DirectML/OpenVINO acceleration, 80+ object classes, presets for Home/Business/Parking
 - **Audio Analytics** — Detect dog barking, car alarms, glass break, and more
-- **Multi-Camera** — ONVIF, RTSP, USB webcams
-- **Smart Recording** — Event-triggered, pre-record buffer, segment rotation
-- **Notifications** — Telegram, email, Home Assistant
+- **Camera Tampering Detection** — Detects lens cover, spray paint, defocus, and static image substitution
+- **Multi-Camera** — ONVIF, RTSP, USB webcams, auto-scan network to discover IP cameras
+- **Smart Recording** — Event-triggered, pre-record buffer, segment rotation, auto storage cleanup by size or age
+- **Browser Streaming** — Watch live feeds from any browser on your network (MJPEG/HLS), no app needed
+- **Notifications** — Telegram, email (HTML), Home Assistant via MQTT
+- **Auto-Update** — Built-in updater, no manual downloads
 
 ### 💻 Cross-Platform
-- Windows 10/11 (x64)
-- macOS 12 Monterey+ (Apple Silicon & Intel)
-- Linux — Ubuntu 20.04+, Debian 11+, Fedora 35+ (APT repository available)
-- ARM planned (Raspberry Pi)
+- **Windows** 10/11 (x64) — signed installer (SSL.com certificate)
+- **macOS** 12 Monterey+ (Apple Silicon & Intel) — signed & notarized by Apple
+- **Linux** — Ubuntu 20.04+, Debian 11+, Fedora 35+ (signed APT repository + `install.sh`)
+- **ARM** — planned (Raspberry Pi)
 
 ### 💰 Free Forever
-- **Free** — 2 cameras, all core features, $0
+- **Free** — 1 camera, all core features, $0
 - **Home ($29)** — 4 cameras, one-time payment
 - **Pro ($79)** — Unlimited cameras, one-time payment
 - **No subscriptions** — Pay once, use forever
@@ -66,9 +70,16 @@ Built with Astro, TypeScript, Tailwind CSS. SEO-optimized, multilingual (EN/RU/D
 - 🇩🇪 **Deutsch** — Complete
 - 🇫🇷 **Français** — Complete
 - 🇨🇳 **中文** — Complete
+- 🇹🇼 **繁體中文** — Complete
 - 🇪🇸 **Español** — Complete
 - 🇧🇷 **Português** — Complete
 - 🇯🇵 **日本語** — Complete
+- 🇰🇷 **한국어** — Complete
+- 🇮🇳 **हिन्दी** — Complete
+- 🇮🇩 **Bahasa Indonesia** — Complete
+- 🇹🇭 **ภาษาไทย** — Complete
+- 🇹🇷 **Türkçe** — Complete
+- 🇻🇳 **Tiếng Việt** — Complete
 
 ---
 
@@ -81,7 +92,9 @@ Built with Astro, TypeScript, Tailwind CSS. SEO-optimized, multilingual (EN/RU/D
 | **Subscription** | ❌ No | ✅ Yes | ✅ Yes | ❌ No | ❌ No |
 | **AI Detection** | ✅ Yes | ✅ Yes | ✅ Yes | ⚠️ Limited | ⚠️ Limited |
 | **Audio Analytics** | ✅ Yes | ⚠️ Limited | ⚠️ Limited | ❌ No | ❌ No |
+| **Tamper Detection** | ✅ Yes | ❌ No | ❌ No | ❌ No | ❌ No |
 | **Privacy** | ✅ 100% Local | ❌ Cloud | ❌ Cloud | ✅ Local | ✅ Local |
+| **Works Offline** | ✅ Yes | ❌ No | ❌ No | ✅ Yes | ✅ Yes |
 | **macOS** | ✅ Yes | ❌ No | ❌ No | ❌ No | ❌ No |
 | **Linux** | ✅ Yes | ❌ No | ❌ No | ❌ No | ✅ Yes |
 

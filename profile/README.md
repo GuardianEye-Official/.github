@@ -15,6 +15,7 @@
 
 Guardian Eye is a desktop surveillance application built for people who take privacy seriously.
 It runs entirely on your hardware — no cloud accounts, no telemetry, no vendor lock-in.
+No registration required. Works fully offline after installation.
 
 **Ideal for:** Home security · Small business · Parental monitoring · Off-grid setups
 
@@ -24,14 +25,18 @@ It runs entirely on your hardware — no cloud accounts, no telemetry, no vendor
 
 | Feature | Details |
 |---------|---------|
-| 🤖 **AI Detection** | Object & motion detection via YOLO — filters false positives intelligently |
-| 📷 **Multi-Camera** | ONVIF, RTSP/RTSPS, USB webcams — mix sources freely |
+| 🤖 **AI Detection** | Object & motion detection via YOLOv8 (Nano/Small/Medium) — Home, Business, Parking presets |
+| 📷 **Multi-Camera** | ONVIF, RTSP/RTSPS, USB webcams — auto-scan network to discover IP cameras |
 | 🔊 **Audio Analytics** | Detect sounds — dog barking, car alarms, glass break, and more |
-| 💾 **Smart Recording** | Event-triggered, pre-record buffer, size/time segment rotation |
+| 💾 **Smart Recording** | Event-triggered, pre-record buffer, size/time segment rotation, auto-storage cleanup |
+| 🛡️ **Tamper Detection** | Detects lens cover, spray paint, defocus, and static image substitution |
+| 🌐 **Browser Streaming** | Watch live feeds from any browser on your network — no app needed (MJPEG/HLS) |
 | 🔔 **Notifications** | Telegram, email (HTML), Home Assistant webhooks |
-| 🖥️ **Hardware Accel** | VAAPI (Linux), Metal (macOS), Intel/NVIDIA GPU (Windows) |
-| 🌍 **Multilingual** | English, Русский, Deutsch, Français, 中文, Español, Português, 日本語 — full UI localization |
-| 🔒 **100% Local** | Zero cloud, zero accounts, zero telemetry |
+| 🖥️ **Hardware Accel** | CUDA (NVIDIA), DirectML (AMD/Intel), OpenVINO, VAAPI (Linux), Metal (macOS) |
+| 🔄 **Auto-Update** | Built-in updater — always up to date without manual downloads |
+| 🎨 **Themes** | Dark, Light, or System — switches instantly |
+| 🌍 **Multilingual** | English, Русский, Deutsch, Français, 中文, 繁體中文, Español, Português, 日本語, 한국어, हिन्दी, Bahasa Indonesia, ภาษาไทย, Türkçe, Tiếng Việt — full UI localization |
+| 🔒 **100% Local** | Zero cloud, zero accounts, zero telemetry — works fully offline |
 
 ---
 
@@ -39,7 +44,7 @@ It runs entirely on your hardware — no cloud accounts, no telemetry, no vendor
 
 | Plan | Price | Cameras |
 |------|-------|---------|
-| **Free** | $0 forever | 2 cameras |
+| **Free** | $0 forever | 1 camera |
 | **Home** | $29 one-time | 4 cameras |
 | **Pro** | $79 one-time | Unlimited |
 
@@ -49,9 +54,9 @@ No subscriptions. No renewals. Pay once, use forever.
 
 ## 🖥️ Platform Support
 
-- **Windows** 10/11 x64
-- **Linux** — Ubuntu 20.04+, Debian 11+, Fedora 35+ (APT repository available)
-- **macOS** — 12 Monterey+ (Apple Silicon & Intel)
+- **Windows** 10/11 x64 — signed installer (SSL.com certificate)
+- **Linux** — Ubuntu 20.04+, Debian 11+, Fedora 35+ (signed APT repository + `install.sh`)
+- **macOS** — 12 Monterey+ (Apple Silicon & Intel) — signed & notarized by Apple
 - **ARM** — planned (Raspberry Pi)
 
 ---
@@ -74,7 +79,9 @@ No subscriptions. No renewals. Pay once, use forever.
 | **Subscription** | ❌ | ✅ | ✅ | ❌ | ❌ |
 | **AI detection** | ✅ | ✅ | ✅ | ⚠️ | ⚠️ |
 | **Audio analytics** | ✅ | ⚠️ | ⚠️ | ❌ | ❌ |
+| **Tamper detection** | ✅ | ❌ | ❌ | ❌ | ❌ |
 | **100% local** | ✅ | ❌ | ❌ | ✅ | ✅ |
+| **Works offline** | ✅ | ❌ | ❌ | ✅ | ✅ |
 | **macOS support** | ✅ | ❌ | ❌ | ❌ | ⚠️ |
 | **Linux support** | ✅ | ❌ | ❌ | ❌ | ✅ |
 
