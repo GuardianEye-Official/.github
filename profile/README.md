@@ -4,10 +4,15 @@
 
 > No cloud. No subscriptions. No tracking. Your footage stays on your machine.
 
+### Product
+
 [![Website](https://img.shields.io/badge/Website-getguardianeye.com-blue?style=flat-square)](https://getguardianeye.com)
 [![Download](https://img.shields.io/badge/Download-Free-brightgreen?style=flat-square)](https://getguardianeye.com/download)
 [![Changelog](https://img.shields.io/badge/Changelog-What's_new-8250DF?style=flat-square)](https://getguardianeye.com/changelog)
 [![Releases](https://img.shields.io/badge/GitHub-Releases-1F2328?style=flat-square&logo=github)](https://github.com/GuardianEye-Official/Guardian.Eye/releases)
+
+### Community and support
+
 [![Discussions](https://img.shields.io/badge/GitHub-Discussions-8250DF?style=flat-square&logo=github)](https://github.com/GuardianEye-Official/Guardian.Eye/discussions)
 [![Issues](https://img.shields.io/badge/GitHub-Issues-1F883D?style=flat-square&logo=github)](https://github.com/GuardianEye-Official/Guardian.Eye/issues)
 [![Reddit](https://img.shields.io/badge/Reddit-r%2FGuardianEyeApps-FF4500?style=flat-square&logo=reddit&logoColor=white)](https://www.reddit.com/r/GuardianEyeApps/)
